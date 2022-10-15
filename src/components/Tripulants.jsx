@@ -14,7 +14,7 @@ const Tripulants = () => {
       setTimeout(() => {
         setIndex(id);
         setOpacity(true);
-      }, 1000);
+      }, 1100);
     }
   };
   return (

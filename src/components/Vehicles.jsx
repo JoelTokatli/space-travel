@@ -44,7 +44,7 @@ const Vehicles = () => {
               );
             })}
           </ul>
-          <div className="lg:w-10/12 w-11/12 flex flex-col gap-3 tracking-wide text-center pt-6 lg:text-justify lg:w">
+          <div className="lg:w-10/12 w-11/12 flex flex-col gap-3 tracking-wide text-center pt-6 lg:space-y-5 lg:w">
             <p className="text-slate-400  drop-shadow-md shadow-white tracking-wider text-xl">
               THE TERMINOLOGY...
             </p>

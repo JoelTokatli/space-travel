@@ -14,7 +14,7 @@ const Vehicles = () => {
       setTimeout(() => {
         setIndex(id);
         setOpacity(true);
-      }, 1100);
+      }, 1200);
     }
   };
   return (

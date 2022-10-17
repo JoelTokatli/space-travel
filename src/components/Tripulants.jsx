@@ -14,7 +14,7 @@ const Tripulants = () => {
       setTimeout(() => {
         setIndex(id);
         setOpacity(true);
-      }, 1100);
+      }, 1200);
     }
   };
   return (
@@ -29,7 +29,7 @@ const Tripulants = () => {
               opacity ? "" : "opacity-0"
             } ${
               opacity ? "" : "-translate-x-full"
-            } transition-all duration-1000 `}
+            } transition-all duration-1000 duration`}
           >
             <h1 className="sm:text-xl text-lg text-gray-300 sm:pt-5">{role}</h1>
             <h2 className="text-white lg:text-6xl text-2xl sm:text-4xl font-thin">

@@ -14,7 +14,7 @@ const Planets = () => {
       setTimeout(() => {
         setIndex(id);
         setOpacity(true);
-      }, 1100);
+      }, 1200);
     }
   };
   return (
@@ -23,7 +23,7 @@ const Planets = () => {
         <img
           className={`${opacity ? "" : "-translate-x-full"} ${
             opacity ? "" : "opacity-0"
-          } lg:w-72 lg:h-72 mt-6 sm:w-60 sm:h-60 w-40 h-40 transition-all duration-1000`}
+          } lg:w-72 lg:h-72 mt-6 sm:w-60 sm:h-60 w-72 h-72 transition-all duration-1000`}
           src={png}
           alt="Planet"
         />
